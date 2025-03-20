@@ -1,0 +1,60 @@
+El proyecto consistirá en:
+	• Encontrar una fuente de datos libre y extraer los datos de la manera más automatizada posible.
+	• Realizar una limpieza de datos nulos y gestión de valores extremos.
+	• Crear o diseñar una serie de nuevas variables, categorizaciones, índices o kpis que nos aporten información de cara a un futuro análisis de datos.
+	• Realizar el análisis de datos, obtener conclusiones relevantes de nuestro análisis, diferencias significativas entre las distintas dimensiones.
+	• Presentación de 5 minutos para toda la clase. En powerpoint u otro formato similar, sin código, solo representaciones visuales y tablas, y conclusiones.
+
+Recomendación pasos a seguir:
+	• Localiza la temática de datos que te gustaría extraer, trabajar y analizar, y encuentra una fuente de datos al respecto. Puede basarte en las propuestas a continuación o buscar una propia.
+	• Inspecciona de manera general el alcance de esa fuente de datos, qué informaciones contiene, cuántas tablas, ficheros, líneas. Cuál es su granularidad (qué representa cada línea de las diferentes tablas de que dispones), el número de variables y su tipo.
+	• Imagina y plantea qué análisis podrías realizar y a que conclusiones podrías llegar, qué querrías explicar o demostrar, y si con esos datos que tienes es posible, si son lo suficientemente ricos.
+	• Extrae los datos. Nunca perdiendo de vista si aquello que planteaste sigue siendo posible de realizar, a medida que vas conociendo mejor los datos.
+	• A continuación, sigue los pasos habituales del análisis exploratorio: limpieza de nulos, gestión de valores extremos, ingeniería de variables, representación y análisis de los datos.
+
+Temática: Indios Nativos
+Data sources:
+https://api-docs.native-land.ca/
+Data sources:
+
+Temática: Sleep Health
+Data source: Sleep_health_and_lifestyle_dataset.csv
+
+Crear o diseñar una serie de nuevas variables, categorizaciones, índices o kpis que nos aporten información de cara a un futuro análisis de datos.
+
+Analisis "predictivo": relacion con el disorder 
+Ocupacion 
+Numericas en funcion de categoricas
+Definir perfil persona con buen dormir vs mal
+
+Nueva categoria de actividad fisica
+Nueva cat para nivel de estrés 
+
+Cómo se ve la persona que tiene un buen dormir?
+Impacta el género?
+Cuánto ejercicio hace? 
+Qué tipo de trabajo tiene?
+Qué nivel de estrés? 
+Cuál es su BMI category?
+Relación entre blood presure, stress level, BMI, heart rate
+
+
+İntroduction¶
+Sleep is a fundamental biological process that significantly impacts the quality of human life. Adequate and quality sleep plays a crucial role in maintaining physical health, mental well-being, and overall life satisfaction. However, many people worldwide suffer from sleep disorders. Sleep disorders manifest in various ways, such as difficulty falling asleep, waking up feeling unrested, excessive daytime sleepiness, or irregular sleep patterns. These disorders not only affect an individual’s physical health but also have negative consequences on mental health and daily functioning.
+In recent years, understanding sleep disorders better and developing effective treatment methods have become major research areas in the healthcare sector. In this context, analyzing and predicting sleep disorders can be beneficial both at the clinical and individual levels. With the advancement of technology, analyzing sleep data holds great potential for early detection of sleep disorders and finding effective treatments.
+This study aims to analyze sleep disorders and predict the risk of future sleep issues. By utilizing data-driven approaches and machine learning techniques, various factors related to individuals' sleep patterns will be considered to predict the risk of sleep disorders. Through this, it is expected to contribute to early interventions and the development of personalized treatment strategies.
+
+Data Content
+1. Person ID: Unique identifier for each person.
+2. Gender: Gender of the person (Male).
+3. Age: Age of the person.
+4. Occupation: The job or occupation of the person.
+5. Sleep Duration: Number of hours of sleep per day.
+6. Quality of Sleep: A rating of the quality of sleep (on a scale of 1 to 10).
+7. Physical Activity Level: Amount of physical activity (on a scale of 1 to 10).
+8. Stress Level: Level of stress (on a scale of 1 to 10).
+9. BMI Category: Classification of Body Mass Index (e.g., Overweight, Normal, Obese).
+10. Blood Pressure: Blood pressure value (e.g., 126/83).
+11. Heart Rate: Heart rate per minute.
+12. Daily Steps: Number of steps walked daily.
+Sleep Disorder: Information about any sleep disorder, if applicable (e.g., Sleep Apnea)
